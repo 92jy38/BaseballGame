@@ -1,4 +1,4 @@
-package BaseballGame;
+package baseballgame;
 import java.util.*;
 
 public class BaseballGame {
