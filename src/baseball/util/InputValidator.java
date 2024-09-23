@@ -9,7 +9,7 @@ public class InputValidator {
     public boolean isValidInput(String input, int digitCount) {
         try {
             if (input.length() != digitCount) {
-                throw new IllegalArgumentException("입력 값의 자리 수가 잘못되었습니다.");
+                throw new IllegalArgumentException("입력 값의 자릿수가 잘못되었습니다.");
             }
 
             HashSet<Character> digits = new HashSet<>();
