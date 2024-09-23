@@ -5,7 +5,7 @@ import java.util.List;
 public class GameConsole {
     public void showMenu() {
         System.out.println("환영합니다! 원하시는 번호를 입력해주세요");
-        System.out.println("0. 자릿수 설정  1. 게임 시작하기  2. 게임 기록 보기  3. 종료하기");
+        System.out.println("0. 난이도 설정  1. 게임 시작하기  2. 게임 기록 보기  3. 종료하기");
     }
 
     public void showDifficultySettingPrompt() {
@@ -38,7 +38,7 @@ public class GameConsole {
     }
 
     public void showPostGameMenu() {
-        System.out.println("0. 자릿수 설정 1. 계속하기 2. 게임 기록 보기 3. 종료하기");
+        System.out.println("0. 난이도 설정 1. 계속하기 2. 게임 기록 보기 3. 종료하기");
     }
 
     public void showExitMessage() {

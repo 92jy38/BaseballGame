@@ -9,7 +9,7 @@ public class AnswerGenerator {
 
     public List<Integer> generateAnswer(int digitCount) {
         if (digitCount < 3 || digitCount > 5) {
-            throw new IllegalArgumentException("자릿수는 3, 4, 5 중 하나여야 합니다.");
+            throw new IllegalArgumentException("난이도는 3, 4, 5 중 하나여야 합니다.");
         }
 
         List<Integer> numbers = new ArrayList<>();
